@@ -1,0 +1,10 @@
+<!--pages/home.wxml-->
+<view id="main_h">
+
+</view>
+<view id="list">
+  <view class="list_choose">
+    <button>首页</button>
+    <button>照片</button>
+  </view>
+</view>
