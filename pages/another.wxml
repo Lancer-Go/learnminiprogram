@@ -1,2 +1,18 @@
 <!--pages/another.wxml-->
-<text>pages/another.wxml</text>
+<view id="main_h">
+  <view class='cont_1'>
+    <text style='color:black'>个人照片</text>
+  </view>
+  <view class='cont_2'>
+    <text>当日子成为旧照片当旧照片成为回忆,我们成了背对背行走     的路人,沿着不同的方向,固执的一步一步远离,没有雅典,没有罗      马,再也没有回去的路——郭敬明</text>
+  </view>
+  <view class='cont_3'>
+    <text>放置照片的地方</text>
+  </view>
+</view>
+<view id="list">
+  <view class="list_choose">
+    <button bindtap='Tohome'>首页</button>
+    <button bindtap='Toanother'>照片</button>
+  </view>
+</view>

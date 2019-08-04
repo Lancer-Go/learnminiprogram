@@ -1,10 +1,36 @@
 <!--pages/home.wxml-->
 <view id="main_h">
-
+  <view class="cont_1">
+    <text>这是我的主页</text>
+  </view>
+  <view class="cont_2">
+    <view class="cont_2_in_1">
+      <text>信息框1</text>
+    </view>
+    <view class="cont_2_in_1">
+      <text>信息框2</text>
+    </view>
+  </view>
+  <view class="cont_3">
+    <text>放置一些图片和连接一起</text>
+  </view>
+  <view class="cont_4">
+    <view class="cont_4_in_1">
+      <text>放置图片</text>
+    </view>
+    <view class="cont_4_in_2">
+      <text>姓名：赵秋明</text>
+      <text>在读院校：汕头大学</text>
+      <text>现住址：广东省佛山市禅城区</text>
+      <text>个人座右铭：</text>
+    </view>
+  </view>
+  <view class="cont_5"></view>
+  <view class="cont_6"></view>
 </view>
 <view id="list">
   <view class="list_choose">
-    <button>首页</button>
-    <button>照片</button>
+    <button bindtap='Tohome'>首页</button>
+    <button bindtap='Toanother'>照片</button>
   </view>
 </view>

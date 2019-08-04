@@ -1,1 +1,42 @@
 /* pages/another.wxss */
+#main_h{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+  height:95%;
+  align-items: center;
+}
+#list{
+position:fixed;
+bottom:0;
+width:100%;
+}
+.list_choose{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+}
+button{
+  outline:none;
+  box-shadow: none;
+  width:100%;
+  background-color: darkorange;
+  height:5%;
+}
+.cont_1{
+  font-family:'STHupo';
+}
+.cont_2{
+  position:relative;
+  top:3px;
+  height:80%;
+  width: 70%;
+  font-size:10px;
+  font-family: 'KaiTi';
+}
+.cont_3{
+  margin:20rpx;
+  border: double blue 10rpx;
+  width:80%;
+  height:70%;
+}
